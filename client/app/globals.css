@@ -1,0 +1,55 @@
+/* CSS Reset Start */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/* CSS Reset End */
+
+:root,
+html,
+body {
+  height: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border: none;
+  background: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  padding: 24px 32px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+}
+
+.btn-secondary {
+}

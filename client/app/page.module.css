@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -50px;
+  padding: 0 40px;
+}
+
+.wrapper h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.wrapper p:first-child {
+  margin-bottom: 24px;
+  padding: 8px 32px;
+  border-radius: 50px;
+  font-size: 16px;
+  animation: badge-color-cycle 32s linear infinite;
+}
+
+.wrapper p:last-child {
+  font-size: 24px;
+}
+
+@keyframes badge-color-cycle {
+  0% {
+    background-color: #ffda79;
+  }
+  25% {
+    background-color: #ffabe7;
+  }
+  50% {
+    background-color: #d2bcf3;
+  }
+  75% {
+    background-color: #edf3d8;
+  }
+  100% {
+    background-color: #ffda79;
+  }
+}
+
+@media (max-width: 450px) {
+  .wrapper h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .wrapper p {
+    text-align: center;
+  }
+
+  .wrapper p:last-child {
+    margin-top: 8px;
+    font-size: 20px;
+  }
+}
