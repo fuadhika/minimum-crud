@@ -5,7 +5,7 @@ export default function HomePage() {
     <main className={styles.wrapper}>
       <p>Truly simplistic.</p>
       <h1>Minimum CRUD</h1>
-      <p>Minimalistic CRUD designed for your minimalistic mind.</p>
+      <p>Minimalistic CRUD designed for your imaginistic mind.</p>
     </main>
   );
 }
